@@ -14,6 +14,11 @@ countries_data = geo_cache.get_countries()
 # Function to convert unicode text to ASCII, replacing specific characters
 
 
+def unique_strings(lst):
+    # Use a set to remove duplicates, then convert back to a list
+    return list(dict.fromkeys(lst))
+
+
 
 # Function to get the country name from its country code
 
@@ -69,6 +74,14 @@ def fetch_cities_by_country_code(country_code):
     return ls
 
 
+def clean_cities(cities):
+    """
+    Clean cities data by removing duplicates and sorting alphabetically.
+    """
+    ls = unique_strings([s.strip().strip('"').strip("'") for s in cities])
+    ls = sorted(ls)
+    return ls
+
 # Factory function to create functions to handle city data retrieval and processing
 def create_city_handler(country_code: str):
     """
@@ -84,6 +97,7 @@ def create_city_handler(country_code: str):
 
         # If file does not exist, fetch and write city data
         cities = fetch_cities_by_country_code(country_code)
+        cities = clean_cities(cities)
         random.shuffle(cities)
 
         bt.write_json(cities, filename)

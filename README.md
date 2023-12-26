@@ -39,7 +39,10 @@
 
 - ✅ [Botasaurus](https://github.com/omkarcloud/botasaurus): The All-in-One Web Scraping Framework with Anti-Detection, Parallelization, Asynchronous, and Caching Superpowers.
 
+- ✅ [Trip Advisor](https://github.com/omkarcloud/tripadvisor-scraper): Discover websites, emails, and phone numbers of hotels and restaurants from the untapped gold mine of TripAdvisor leads.
+
 - ✅ [Outlook Account Generator](https://github.com/omkarcloud/outlook-account-generator): Send emails at Google's Scale with Outlook Accounts.
+
 
 
 <!-- TODO: UNCOMMENT WHEN DONE -->
@@ -363,6 +366,18 @@ I've personally employed the following strategy to sell my services, which has p
 5. Send personalized emails to your target businesses and connect with key company personnel on LinkedIn, Facebook, and Twitter.
 
 <!-- **Note:** Avoid cold calling, not because it isn't effective, but because handling rejection over the phone can severely impact your confidence. -->
+
+### ❓ Are There Other Sources of Great Leads that I can use?
+
+Google Maps is heavily scraped, the competition for these leads is intense. Many of them might already have been contacted by your competition.
+
+Therefore, we suggest adopting a different approach: scrape leads from platforms like TripAdvisor. Leads from TripAdvisor are far less scraped compared to Google Maps, allowing you to access leads that your competition hasn't yet contacted, potentially leading to much higher closing rates.
+
+Also, if hotel and restaurant owners are your primary target audience, consider using TripAdvisor Leads instead of Google Maps Leads due to the lower competition.
+
+Our TripAdvisor Scraper allows you to easily gather contact information such as emails, phone numbers, and websites from TripAdvisor. 
+
+Discover leads with less competition and grow your sales by checking out our [Tripadvisor Scraper here](https://github.com/omkarcloud/tripadvisor-scraper)
 
 
 ### ❓ How Does It Work?
